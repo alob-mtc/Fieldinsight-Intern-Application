@@ -14,7 +14,7 @@ light green: #A3C4BC
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('./back.jpg');
+  background-image: url("./back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -131,4 +131,13 @@ input.error {
 .createAccount small {
   color: #999;
   font-weight: lighter;
+}
+
+.Hob {
+  padding: 13px;
+  border-radius: 3px;
+  box-shadow: 0px 4px 60px #555;
+
+  margin-left: 3px;
+  background-color: #519e8a;
 }
